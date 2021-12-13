@@ -1,2 +1,4 @@
-# python_examples
-some examples when i learn the python
+# Python examples
+
+Record some examples in the learning python
+
