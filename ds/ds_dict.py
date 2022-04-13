@@ -2,15 +2,25 @@
 """
     :author: allen lv
 """
+# empty dict
+emptyDict = {}
+#
 # dict, key-value
 d = {1: 'a', 2: 'b', 3: 'c'}
-# a
+print('--------------------------------------')
+print('取值')
+
+# 打印a
+print(d[1])
 print(d.get(1))
 
 # 判断key
-# false
+# False
+print('--------------------------------------')
+print('判断')
 print(4 in d)
-# none
+print(1 in d)
+# None
 print(d.get(4))
 
 # for
