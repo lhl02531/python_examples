@@ -7,9 +7,9 @@
 
 # empty list
 empty_list = []
-print(type(empty_list))
+print('empty_list', empty_list)
 empty_list_1 = list()
-print(type(empty_list_1))
+print('empty_list1', empty_list_1)
 
 numbers = [1, 2, 3]
 # 打印元素

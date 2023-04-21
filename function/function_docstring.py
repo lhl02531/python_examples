@@ -9,7 +9,7 @@ def maximum(x, y):
 
     :param x:
     :param y:
-    :return: 两数较大值，相等返回none
+    :return: 两数较大值，返回None
     """
     if x > y:
         return x
