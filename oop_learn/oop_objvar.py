@@ -3,21 +3,22 @@
     :author: allen lv
 """
 
+
 class Robot:
     """robot 机器人类"""
 
-    count = 0   # count, 类变量,使用Robot.count
+    count = 0  # count, 类变量,使用Robot.count
+
     def __init__(self, name):
         # name 对象变量
         self.name = name
-        Robot.count +=1
-
+        Robot.count += 1
 
     def die(self):
         print('{0} is dieing'.format(self.name))
         Robot.count -= 1
 
-        if(Robot.count == 0):
+        if (Robot.count == 0):
             print('{0} is the last one'.format(self.name))
         else:
             print('there are still {0} working'.format(Robot.count))

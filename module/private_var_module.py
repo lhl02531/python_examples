@@ -4,16 +4,16 @@
 """
 
 
-def _pri_1(name):
+def _pri_fun_1(name):
     print('hello, %s' % name)
 
 
-def _pri_2(name):
+def _pri_fun_2(name):
     print('Hi, %s' % name)
 
 
 def greeting(name):
     if len(name) > 3:
-        _pri_1(name)
+        _pri_fun_1(name)
     else:
-        _pri_2(name)
+        _pri_fun_2(name)

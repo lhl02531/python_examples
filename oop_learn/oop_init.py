@@ -3,6 +3,7 @@
     :author: allen lv
 """
 
+
 class Person:
     def __init__(self, name):
         '''
@@ -13,6 +14,7 @@ class Person:
 
     def sayHello(self):
         print('evening,{0}'.format(self.name))
+
 
 p = Person('lv')
 p.sayHello()

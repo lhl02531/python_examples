@@ -3,9 +3,11 @@
     :author: allen lv
 """
 
-class  SchoolMember:
+
+class SchoolMember:
     """父类， 学校成员类"""
-    def  __init__(self, name, age):
+
+    def __init__(self, name, age):
         self.name = name
         self.age = age
         print('init SchoolMember: {}'.format(self.name), end='  ')
@@ -16,6 +18,7 @@ class  SchoolMember:
 
 class Teacher(SchoolMember):
     """老师类"""
+
     def __init__(self, name, age, salary):
         SchoolMember.__init__(self, name, age)
         self.salary = salary
@@ -28,8 +31,9 @@ class Teacher(SchoolMember):
 
 class Student(SchoolMember):
     """学生类"""
+
     def __init__(self, name, age, id):
-        SchoolMember.__init__( self, name, age)
+        SchoolMember.__init__(self, name, age)
         self.id = id
         print('init student:{}'.format(self.name))
 
@@ -39,7 +43,7 @@ class Student(SchoolMember):
 
 
 t = Teacher('teacher AAAAAA', 38, 6000)
-s = Student('student BBBBBB',12, 'student')
+s = Student('student BBBBBB', 12, 'student')
 
 members = [t, s]
 for member in members:
