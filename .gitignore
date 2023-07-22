@@ -133,3 +133,6 @@ dmypy.json
 /test/
 /sort/
 /review/
+
+# vscode
+.vscode/
