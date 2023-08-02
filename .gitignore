@@ -136,3 +136,7 @@ dmypy.json
 
 # vscode
 .vscode/
+#pytest
+.pytest_cache/
+pytest_learn/allure/
+selenium_learn/chromedriver.exe
